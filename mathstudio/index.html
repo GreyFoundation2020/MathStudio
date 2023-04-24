@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathStudio.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/dc8baa5528.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <div class="topnav" id="myTopnav">
+            <h1>MathStudio.</h1>
+            <div class="navbar">
+                <div class="next-page">
+                    <h2><a target="_blank" href="solve.html">Get it Solve.</a></h2>
+                </div>
+                <div class="lists">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#linkin">Contact</a>
+                <a href="#search">About</a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="body-text">
+            <div class="header-text">
+                <h2>Discover Mathematical Knowledge <br> and Stay Connected to the World of Math.</h2>
+
+                <div class="signin">
+                    <button class="signin-btn" onclick="openForm()">Register.</button>
+                    <div class="form-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                            <h1>Registration</h1>
+
+                            <div class="label1">
+                                 <label for="name"><b>FirstName</b></label>
+                            <input type="text" placeholder="Enter firstname" name="email" required>
+
+                            <label for="name"><b>SurName</b></label>
+                            <input type="text" placeholder="Enter surname" name="email" required>
+
+
+                            </div>
+                            <div class="label2">
+                                  <label for="email"><b>Occupation</b></label>
+                            <input type="text" placeholder="Enter Occupation" name="email" required>
+
+                            <label for="psw"><b>Nationality</b></label>
+                            <input type="text" placeholder="Enter your country" name="psw" required>
+
+                            </div>
+                            <div class="label3">
+                               <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            </div>
+                            
+                            <button type="submit" class="btn">Register</button>
+                            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        </form>
+                    </div>
+                    <button class="signin-btn" onclick="openLoginForm()"> Log In.</button>
+                    <div class="form-popup" id="login">
+                        <form action="/action_page.php" class="form-container">
+                            <h1>Login</h1>
+
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit" class="btn">Login</button>
+                            <button type="button" class="btn cancel" onclick="closeLoginForm()">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-img">
+                <img src="/images/image_processing20200714-18114-1u1tx5g.gif" alt="">
+            </div>
+        </div>
+        <div class="searchbar">
+            <div class="images">
+                <img src="/images/formula.jpg" alt="">
+            </div>
+            <div class="search" id="search">
+                <h2>Discover research</h2>
+                <p> Access over a million publication pages on different topics with examples and solutions, stay up to date with what's happening in your field.</p>
+                <div class="search-container">
+                    <form>
+                        <input type="select" placeholder="Search  your topic here.." name="search">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial">
+            <h2>
+                "We hope your visit to this site brings, you a greater love of mathematics, both for its beauty and its power to help solve everyday problems."
+            </h2>
+            <h4>Einstein, Albert (1879-1955)</h4>
+            <p>"Do not worry about your difficulties in mathematics, I assure you that mine are greater."</p>
+        </div>
+    </section>
+    <section>
+        <hr>
+        <div class="subjecct-section">
+            <div class="subject">
+                <h2>Select Topic</h2>
+                <div class="list">
+                    <ul>
+                        <li><a href="">Basic Math.</a></li>
+                        <li><a href="">Everyday Math.</a></li>
+                        <li><a href="">Pre-Algebra.</a></li>
+                        <li><a href="">Pre-Algebra.</a></li>
+                        <li><a href="">Geometry.</a></li>
+                        <li><a href="">Trigonometry.</a></li>
+                        <li><a href="">Statistics.</a></li>
+                        <li><a href="">Calculus.</a></li>
+                        <li><a href="">Advanced Topics.</a></li>
+                        <li><a href="">Others.</a></li>
+                        <li><a href="">Math Tutoring.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="connect">
+                <img src="/images/math.jpg" alt="">
+                <div class="connect-text">
+                    <h1>Connect with <br> your mathematical community.</h1>
+                    <p>Share your research, collaborate with your peers, and get the support you need to advance your career.</p>
+                    <div class="connection-btn">
+                        <button><a href="">Mathematics.</a></button>
+                        <button><a href="">Engineering.</a></button>
+                        <button><a href="">Astrophysics.</a></button>
+                        <button><a href="">Physics.</a></button>
+                    </div>
+                </div>
+                <div class="connect1">
+                    <div class="conne">
+                        <img src="/images/math2jpg.jpg" alt="">
+                        <div>
+                            <h2>Measure your impact.</h2>
+                            <p>Get in-depth insight on who's been reading your work and keep track of your citations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+    </section>
+    <section>
+        <div class="join">
+            <h1>Advance your research and join a community <br> of a million mathematician's.</h1>
+            <button>Join for free.</button>
+        </div>
+        <hr>
+        <div class="pdf">
+            <h1>PDF Files.</h1>
+            <p>Select your favorite books here.</p>
+        </div>
+        <div class="pdf-list">
+            <div class="pdf-book">
+                <div>
+                    <img src="/images/download (1).jpg" alt="">
+                    <p>Basic Analysis: Introduction to Real Analysis. <a href="">Read View</a> <button class="pdf-btn">Download</button></p>
+                </div>
+                <div>
+                    <img src="/images/download (2).jpg" alt="">
+                    <p>Abstract Algebra: Theory and Applications.<a href="">Read View</a> <button class="pdf-btn">Download</button> </p>
+                </div>
+                <div>
+                    <img src="/images/download (3).jpg" alt="">
+                    <p>Mathematical Reasoning: Writing and Proof. <a href="">Read View</a> <button class="pdf-btn">Download</button></p>
+                </div>
+            </div>
+
+            <div class="pdf-book2">
+                <div>
+                    <img src="/images/Calculus-Guichard-2021A-Thumbnail.png" alt="">
+                    <p>Calculus: Early Transcendentals.. <a href="">Read View</a> <button class="pdf-btn">Download</button></p>
+                </div>
+                <div>
+                    <img src="/images/0000StatInfer.png" alt="">
+                    <p>Statistical Inference For Everyone.<a href="">Read View</a> <button class="pdf-btn">Download</button> </p>
+                </div>
+                <div>
+                    <img src="/images/978-1-4696-5691-5.png" alt="">
+                    <p>Microwave and RF Design: Radio Systems. <a href="">Read View</a> <button class="pdf-btn">Download</button></p>
+                </div>
+            </div>
+            <div class="see"> <button class="see-more">See More.</button> </div>
+        </div>
+    </section>
+    <section id="linkin">
+        <div class="social-link">
+            <div class="social">
+                <div>
+                    <ul>
+                        <h3>ABOUT</h3>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3>HELP</h3>
+                        <li><a href="">Supports</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Request a livestream</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3>RESOURCES</h3>
+                        <li><a href="">Blog</a> </li>
+                        <li><a href="">Case Studies</a></li>
+                        <li><a href="">Whitepapper</a></li>
+                        <li><a href="">Webinars</a></li>
+                        <li><a href="">Tutorials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3>Connect with Us</h3>
+                        <div class="socialicon">
+                            <i class="facebook fa-brands fa-facebook"></i>
+                            <i class="twitter fa-brands fa-twitter"></i>
+                            <i class="inlink fa-brands fa-linkedin"></i>
+                            <i class="youtube fa-brands fa-youtube"></i>
+                            <i class="blogger fa-brands fa-blogger"></i>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer">
+                <div>
+                    <a href="">Privacy Policy | </a> <a href="">Terms and Conditions</a> © 2022 GreyTech Inc. All rights reserved.
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="scri.js"></script>
+</body>
+
+</html>
